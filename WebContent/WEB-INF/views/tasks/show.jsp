@@ -11,17 +11,8 @@
         <p>更新日時 : <fmt:formatDate value="${task.updated_at}" pattern="yyyy-MM-dd HH:mm:ss" /></p>
 
         <P><a href="${pageContext.request.contextPath}/index">一覧に戻る</a></P>
+        <p><a href="${pageContext.request.contextPath}/edit?id=${task.id}">このタスクを編集する</a></p>
 
     </c:param>
 </c:import>
 
-<!DOCTYPE html>
-<html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>Insert title here</title>
-    </head>
-    <body>
-
-    </body>
-</html>
